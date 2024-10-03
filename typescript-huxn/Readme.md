@@ -96,3 +96,11 @@ value, and other typeof values.
 # Getters and Setters
 Getters and Setters are used to access and modify class properties. Getter and setter allow you to define a property in a class that looks like a simple variable from the outside but internally has additional logic for getting and setting the value.
 
+# Interface
+- Interface is a way to define a contract for the shape of an object.
+- It specifies the properties and  their types that an object must have.
+- Interfaces are a powerful tool for enforcing a certain structure in your code.
+
+ - When interfaces are commonly used to define the sturcture of objects, they are not limited to just objects. Interface in Typescript can also be used to describe the shape of function and class.
+
+ 
