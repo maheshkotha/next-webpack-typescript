@@ -103,4 +103,23 @@ Getters and Setters are used to access and modify class properties. Getter and s
 
  - When interfaces are commonly used to define the sturcture of objects, they are not limited to just objects. Interface in Typescript can also be used to describe the shape of function and class.
 
+ # Generics 
+ - In Typescript, generics allows you to create reusable components that can work with a variety of types. Generics make it possible for you to define functions, classes, and interfaces that can work with different data types without having to duplicate code.
+
+   
+# Type Narrowing
+  - Type narrowing is the process of refining a variable a variable's type with in the conditional block of code. This allows to write more precise and type-safe code.
+
+   * Type guards
+    - Type guards are mechanisms that help typescript understand and narrow down the types more precisely 
+    - One common type guard is the typeof operator.
+
+  * instanceof operator
+    The instance of operator is another type guard in Typescript that allows you to check whether an object is an instance of a particular class or constuctor function.
+  
+  * Intersection types
+    - Intersection types in Typescript allow you to combine multiple types into a single type. The resulting type will have all the properties of each individual type. You create intersection types using the & operator.
+
+   
+
  
